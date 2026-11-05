@@ -1,0 +1,117 @@
+{
+ "fbm": [
+  {
+   "row": "fBm, шум Перлина",
+   "basis_main": "sym8",
+   "K1": [
+    "coif4",
+    0.75
+   ],
+   "D2": [
+    "coif6",
+    1.0
+   ],
+   "corr": [
+    1.0,
+    0.815,
+    0.905,
+    0.891,
+    0.999
+   ]
+  }
+ ],
+ "tasks": [
+  {
+   "task": "hills",
+   "basis": "coif3",
+   "adsi": "A2' (без копии)",
+   "mask": {
+    "g": 0.5,
+    "beta": 0.4697,
+    "ref_corr": 0.912
+   },
+   "seed_search": {
+    "seed_index": 29,
+    "corr_full": 0.594,
+    "shift": [
+     11,
+     37
+    ]
+   },
+   "corr_drawing": [
+    0.919,
+    0.912,
+    0.676
+   ]
+  },
+  {
+   "task": "ridge",
+   "basis": "db2",
+   "adsi": "A2 (с копией на J = 1)",
+   "mask": {
+    "g": 0.5,
+    "beta": 0.6896,
+    "ref_corr": 0.924
+   },
+   "seed_search": {
+    "seed_index": 90,
+    "corr_full": 0.505,
+    "shift": [
+     33,
+     59
+    ]
+   },
+   "corr_drawing": [
+    0.924,
+    0.924,
+    0.564
+   ]
+  },
+  {
+   "task": "valley_k",
+   "basis": "coif3",
+   "adsi": "A2' (без копии)",
+   "mask": {
+    "g": 0.5,
+    "beta": 0.4074,
+    "ref_corr": 0.968
+   },
+   "seed_search": {
+    "seed_index": 60,
+    "corr_full": 0.493,
+    "shift": [
+     38,
+     15
+    ]
+   },
+   "corr_drawing": [
+    0.968,
+    0.968,
+    0.573
+   ]
+  },
+  {
+   "task": "plain_hill",
+   "basis": "coif3",
+   "adsi": "A2' (без копии)",
+   "mask": {
+    "g": 0.5,
+    "beta": 0.2499,
+    "ref_corr": 0.975
+   },
+   "seed_search": {
+    "seed_index": 84,
+    "corr_full": 0.484,
+    "shift": [
+     5,
+     24
+    ]
+   },
+   "corr_drawing": [
+    0.979,
+    0.975,
+    0.594
+   ]
+  }
+ ]
+}
